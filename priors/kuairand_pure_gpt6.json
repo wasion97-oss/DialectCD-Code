@@ -1,0 +1,121 @@
+{
+    "tiers": {
+      "User_Hist_Activity": 0,
+      "Author_Fans_Level": 0,
+      "Video_Duration": 1,
+      "Video_Quality_Score": 1,
+      "Impression_Rank": 2,
+      "Is_Click": 2,
+      "Play_Time_Ratio": 3,
+      "Is_Like": 3
+    },
+    "required": [
+      {
+        "from": "User_Hist_Activity",
+        "to": "Impression_Rank",
+        "weight": 0.85
+      },
+      {
+        "from": "User_Hist_Activity",
+        "to": "Is_Click",
+        "weight": 0.85
+      },
+      {
+        "from": "Author_Fans_Level",
+        "to": "Impression_Rank",
+        "weight": 0.9
+      },
+      {
+        "from": "Video_Duration",
+        "to": "Play_Time_Ratio",
+        "weight": 0.85
+      },
+      {
+        "from": "Video_Quality_Score",
+        "to": "Impression_Rank",
+        "weight": 0.85
+      },
+      {
+        "from": "Video_Quality_Score",
+        "to": "Is_Click",
+        "weight": 0.8
+      },
+      {
+        "from": "Impression_Rank",
+        "to": "Is_Click",
+        "weight": 0.95
+      },
+      {
+        "from": "Is_Click",
+        "to": "Play_Time_Ratio",
+        "weight": 0.95
+      },
+      {
+        "from": "Play_Time_Ratio",
+        "to": "Is_Like",
+        "weight": 0.8
+      }
+    ],
+    "forbidden": [
+      {
+        "from": "Is_Click",
+        "to": "User_Hist_Activity"
+      },
+      {
+        "from": "Is_Like",
+        "to": "User_Hist_Activity"
+      },
+      {
+        "from": "Play_Time_Ratio",
+        "to": "User_Hist_Activity"
+      },
+      {
+        "from": "Is_Click",
+        "to": "Author_Fans_Level"
+      },
+      {
+        "from": "Is_Like",
+        "to": "Author_Fans_Level"
+      },
+      {
+        "from": "Play_Time_Ratio",
+        "to": "Author_Fans_Level"
+      },
+      {
+        "from": "Is_Like",
+        "to": "Video_Duration"
+      },
+      {
+        "from": "Is_Click",
+        "to": "Video_Duration"
+      },
+      {
+        "from": "Play_Time_Ratio",
+        "to": "Video_Duration"
+      },
+      {
+        "from": "Is_Like",
+        "to": "Video_Quality_Score"
+      },
+      {
+        "from": "Is_Click",
+        "to": "Video_Quality_Score"
+      },
+      {
+        "from": "Play_Time_Ratio",
+        "to": "Video_Quality_Score"
+      },
+      {
+        "from": "Is_Like",
+        "to": "Impression_Rank"
+      },
+      {
+        "from": "Play_Time_Ratio",
+        "to": "Impression_Rank"
+      },
+      {
+        "from": "Is_Click",
+        "to": "Impression_Rank"
+      }
+    ]
+  }

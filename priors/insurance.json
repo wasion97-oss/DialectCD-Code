@@ -1,0 +1,1428 @@
+{
+  "tiers": {
+    "Age": 0,
+    "SocioEcon": 0,
+    "RiskAversion": 0,
+    "VehicleYear": 0,
+    "GoodStudent": 1,
+    "SeniorTrain": 1,
+    "DrivingSkill": 1,
+    "DrivQuality": 1,
+    "AntiTheft": 1,
+    "Mileage": 1,
+    "CarValue": 1,
+    "HomeBase": 1,
+    "AntiLock": 1,
+    "Airbag": 1,
+    "DrivHist": 2,
+    "MakeModel": 1,
+    "Accident": 2,
+    "Theft": 2,
+    "Cushioning": 2,
+    "ThisCarDam": 3,
+    "OtherCarCost": 3,
+    "MedCost": 3,
+    "ILiCost": 3,
+    "ThisCarCost": 3,
+    "PropCost": 3,
+    "Insured": 0
+  },
+  "forbidden": [
+    {
+      "from": "Age",
+      "to": "GoodStudent"
+    },
+    {
+      "from": "Age",
+      "to": "SeniorTrain"
+    },
+    {
+      "from": "Age",
+      "to": "DrivingSkill"
+    },
+    {
+      "from": "Age",
+      "to": "DrivQuality"
+    },
+    {
+      "from": "Age",
+      "to": "AntiTheft"
+    },
+    {
+      "from": "Age",
+      "to": "Mileage"
+    },
+    {
+      "from": "Age",
+      "to": "CarValue"
+    },
+    {
+      "from": "Age",
+      "to": "HomeBase"
+    },
+    {
+      "from": "Age",
+      "to": "AntiLock"
+    },
+    {
+      "from": "Age",
+      "to": "Airbag"
+    },
+    {
+      "from": "Age",
+      "to": "DrivHist"
+    },
+    {
+      "from": "Age",
+      "to": "MakeModel"
+    },
+    {
+      "from": "Age",
+      "to": "Accident"
+    },
+    {
+      "from": "Age",
+      "to": "Theft"
+    },
+    {
+      "from": "Age",
+      "to": "Cushioning"
+    },
+    {
+      "from": "Age",
+      "to": "ThisCarDam"
+    },
+    {
+      "from": "Age",
+      "to": "OtherCarCost"
+    },
+    {
+      "from": "Age",
+      "to": "MedCost"
+    },
+    {
+      "from": "Age",
+      "to": "ILiCost"
+    },
+    {
+      "from": "Age",
+      "to": "ThisCarCost"
+    },
+    {
+      "from": "Age",
+      "to": "PropCost"
+    },
+    {
+      "from": "SocioEcon",
+      "to": "GoodStudent"
+    },
+    {
+      "from": "SocioEcon",
+      "to": "SeniorTrain"
+    },
+    {
+      "from": "SocioEcon",
+      "to": "DrivingSkill"
+    },
+    {
+      "from": "SocioEcon",
+      "to": "DrivQuality"
+    },
+    {
+      "from": "SocioEcon",
+      "to": "AntiTheft"
+    },
+    {
+      "from": "SocioEcon",
+      "to": "Mileage"
+    },
+    {
+      "from": "SocioEcon",
+      "to": "CarValue"
+    },
+    {
+      "from": "SocioEcon",
+      "to": "HomeBase"
+    },
+    {
+      "from": "SocioEcon",
+      "to": "AntiLock"
+    },
+    {
+      "from": "SocioEcon",
+      "to": "Airbag"
+    },
+    {
+      "from": "SocioEcon",
+      "to": "DrivHist"
+    },
+    {
+      "from": "SocioEcon",
+      "to": "MakeModel"
+    },
+    {
+      "from": "SocioEcon",
+      "to": "Accident"
+    },
+    {
+      "from": "SocioEcon",
+      "to": "Theft"
+    },
+    {
+      "from": "SocioEcon",
+      "to": "Cushioning"
+    },
+    {
+      "from": "SocioEcon",
+      "to": "ThisCarDam"
+    },
+    {
+      "from": "SocioEcon",
+      "to": "OtherCarCost"
+    },
+    {
+      "from": "SocioEcon",
+      "to": "MedCost"
+    },
+    {
+      "from": "SocioEcon",
+      "to": "ILiCost"
+    },
+    {
+      "from": "SocioEcon",
+      "to": "ThisCarCost"
+    },
+    {
+      "from": "SocioEcon",
+      "to": "PropCost"
+    },
+    {
+      "from": "RiskAversion",
+      "to": "GoodStudent"
+    },
+    {
+      "from": "RiskAversion",
+      "to": "SeniorTrain"
+    },
+    {
+      "from": "RiskAversion",
+      "to": "DrivingSkill"
+    },
+    {
+      "from": "RiskAversion",
+      "to": "DrivQuality"
+    },
+    {
+      "from": "RiskAversion",
+      "to": "AntiTheft"
+    },
+    {
+      "from": "RiskAversion",
+      "to": "Mileage"
+    },
+    {
+      "from": "RiskAversion",
+      "to": "CarValue"
+    },
+    {
+      "from": "RiskAversion",
+      "to": "HomeBase"
+    },
+    {
+      "from": "RiskAversion",
+      "to": "AntiLock"
+    },
+    {
+      "from": "RiskAversion",
+      "to": "Airbag"
+    },
+    {
+      "from": "RiskAversion",
+      "to": "DrivHist"
+    },
+    {
+      "from": "RiskAversion",
+      "to": "MakeModel"
+    },
+    {
+      "from": "RiskAversion",
+      "to": "Accident"
+    },
+    {
+      "from": "RiskAversion",
+      "to": "Theft"
+    },
+    {
+      "from": "RiskAversion",
+      "to": "Cushioning"
+    },
+    {
+      "from": "RiskAversion",
+      "to": "ThisCarDam"
+    },
+    {
+      "from": "RiskAversion",
+      "to": "OtherCarCost"
+    },
+    {
+      "from": "RiskAversion",
+      "to": "MedCost"
+    },
+    {
+      "from": "RiskAversion",
+      "to": "ILiCost"
+    },
+    {
+      "from": "RiskAversion",
+      "to": "ThisCarCost"
+    },
+    {
+      "from": "RiskAversion",
+      "to": "PropCost"
+    },
+    {
+      "from": "VehicleYear",
+      "to": "GoodStudent"
+    },
+    {
+      "from": "VehicleYear",
+      "to": "SeniorTrain"
+    },
+    {
+      "from": "VehicleYear",
+      "to": "DrivingSkill"
+    },
+    {
+      "from": "VehicleYear",
+      "to": "DrivQuality"
+    },
+    {
+      "from": "VehicleYear",
+      "to": "AntiTheft"
+    },
+    {
+      "from": "VehicleYear",
+      "to": "Mileage"
+    },
+    {
+      "from": "VehicleYear",
+      "to": "CarValue"
+    },
+    {
+      "from": "VehicleYear",
+      "to": "HomeBase"
+    },
+    {
+      "from": "VehicleYear",
+      "to": "AntiLock"
+    },
+    {
+      "from": "VehicleYear",
+      "to": "Airbag"
+    },
+    {
+      "from": "VehicleYear",
+      "to": "DrivHist"
+    },
+    {
+      "from": "VehicleYear",
+      "to": "MakeModel"
+    },
+    {
+      "from": "VehicleYear",
+      "to": "Accident"
+    },
+    {
+      "from": "VehicleYear",
+      "to": "Theft"
+    },
+    {
+      "from": "VehicleYear",
+      "to": "Cushioning"
+    },
+    {
+      "from": "VehicleYear",
+      "to": "ThisCarDam"
+    },
+    {
+      "from": "VehicleYear",
+      "to": "OtherCarCost"
+    },
+    {
+      "from": "VehicleYear",
+      "to": "MedCost"
+    },
+    {
+      "from": "VehicleYear",
+      "to": "ILiCost"
+    },
+    {
+      "from": "VehicleYear",
+      "to": "ThisCarCost"
+    },
+    {
+      "from": "VehicleYear",
+      "to": "PropCost"
+    },
+    {
+      "from": "Insured",
+      "to": "GoodStudent"
+    },
+    {
+      "from": "Insured",
+      "to": "SeniorTrain"
+    },
+    {
+      "from": "Insured",
+      "to": "DrivingSkill"
+    },
+    {
+      "from": "Insured",
+      "to": "DrivQuality"
+    },
+    {
+      "from": "Insured",
+      "to": "AntiTheft"
+    },
+    {
+      "from": "Insured",
+      "to": "Mileage"
+    },
+    {
+      "from": "Insured",
+      "to": "CarValue"
+    },
+    {
+      "from": "Insured",
+      "to": "HomeBase"
+    },
+    {
+      "from": "Insured",
+      "to": "AntiLock"
+    },
+    {
+      "from": "Insured",
+      "to": "Airbag"
+    },
+    {
+      "from": "Insured",
+      "to": "DrivHist"
+    },
+    {
+      "from": "Insured",
+      "to": "MakeModel"
+    },
+    {
+      "from": "Insured",
+      "to": "Accident"
+    },
+    {
+      "from": "Insured",
+      "to": "Theft"
+    },
+    {
+      "from": "Insured",
+      "to": "Cushioning"
+    },
+    {
+      "from": "Insured",
+      "to": "ThisCarDam"
+    },
+    {
+      "from": "Insured",
+      "to": "OtherCarCost"
+    },
+    {
+      "from": "Insured",
+      "to": "MedCost"
+    },
+    {
+      "from": "Insured",
+      "to": "ILiCost"
+    },
+    {
+      "from": "Insured",
+      "to": "ThisCarCost"
+    },
+    {
+      "from": "Insured",
+      "to": "PropCost"
+    },
+    {
+      "from": "GoodStudent",
+      "to": "DrivingSkill"
+    },
+    {
+      "from": "GoodStudent",
+      "to": "DrivQuality"
+    },
+    {
+      "from": "GoodStudent",
+      "to": "Mileage"
+    },
+    {
+      "from": "GoodStudent",
+      "to": "CarValue"
+    },
+    {
+      "from": "GoodStudent",
+      "to": "HomeBase"
+    },
+    {
+      "from": "GoodStudent",
+      "to": "AntiLock"
+    },
+    {
+      "from": "GoodStudent",
+      "to": "Airbag"
+    },
+    {
+      "from": "GoodStudent",
+      "to": "MakeModel"
+    },
+    {
+      "from": "GoodStudent",
+      "to": "Accident"
+    },
+    {
+      "from": "GoodStudent",
+      "to": "Theft"
+    },
+    {
+      "from": "GoodStudent",
+      "to": "Cushioning"
+    },
+    {
+      "from": "GoodStudent",
+      "to": "ThisCarDam"
+    },
+    {
+      "from": "GoodStudent",
+      "to": "OtherCarCost"
+    },
+    {
+      "from": "GoodStudent",
+      "to": "MedCost"
+    },
+    {
+      "from": "GoodStudent",
+      "to": "ILiCost"
+    },
+    {
+      "from": "GoodStudent",
+      "to": "ThisCarCost"
+    },
+    {
+      "from": "GoodStudent",
+      "to": "PropCost"
+    },
+    {
+      "from": "SeniorTrain",
+      "to": "DrivQuality"
+    },
+    {
+      "from": "SeniorTrain",
+      "to": "Mileage"
+    },
+    {
+      "from": "SeniorTrain",
+      "to": "CarValue"
+    },
+    {
+      "from": "SeniorTrain",
+      "to": "HomeBase"
+    },
+    {
+      "from": "SeniorTrain",
+      "to": "AntiLock"
+    },
+    {
+      "from": "SeniorTrain",
+      "to": "Airbag"
+    },
+    {
+      "from": "SeniorTrain",
+      "to": "MakeModel"
+    },
+    {
+      "from": "SeniorTrain",
+      "to": "Accident"
+    },
+    {
+      "from": "SeniorTrain",
+      "to": "Theft"
+    },
+    {
+      "from": "SeniorTrain",
+      "to": "Cushioning"
+    },
+    {
+      "from": "SeniorTrain",
+      "to": "ThisCarDam"
+    },
+    {
+      "from": "SeniorTrain",
+      "to": "OtherCarCost"
+    },
+    {
+      "from": "SeniorTrain",
+      "to": "MedCost"
+    },
+    {
+      "from": "SeniorTrain",
+      "to": "ILiCost"
+    },
+    {
+      "from": "SeniorTrain",
+      "to": "ThisCarCost"
+    },
+    {
+      "from": "SeniorTrain",
+      "to": "PropCost"
+    },
+    {
+      "from": "DrivingSkill",
+      "to": "DrivHist"
+    },
+    {
+      "from": "DrivingSkill",
+      "to": "Accident"
+    },
+    {
+      "from": "DrivingSkill",
+      "to": "Theft"
+    },
+    {
+      "from": "DrivingSkill",
+      "to": "Cushioning"
+    },
+    {
+      "from": "DrivingSkill",
+      "to": "ThisCarDam"
+    },
+    {
+      "from": "DrivingSkill",
+      "to": "OtherCarCost"
+    },
+    {
+      "from": "DrivingSkill",
+      "to": "MedCost"
+    },
+    {
+      "from": "DrivingSkill",
+      "to": "ILiCost"
+    },
+    {
+      "from": "DrivingSkill",
+      "to": "ThisCarCost"
+    },
+    {
+      "from": "DrivingSkill",
+      "to": "PropCost"
+    },
+    {
+      "from": "DrivQuality",
+      "to": "DrivHist"
+    },
+    {
+      "from": "DrivQuality",
+      "to": "Accident"
+    },
+    {
+      "from": "DrivQuality",
+      "to": "Theft"
+    },
+    {
+      "from": "DrivQuality",
+      "to": "Cushioning"
+    },
+    {
+      "from": "DrivQuality",
+      "to": "ThisCarDam"
+    },
+    {
+      "from": "DrivQuality",
+      "to": "OtherCarCost"
+    },
+    {
+      "from": "DrivQuality",
+      "to": "MedCost"
+    },
+    {
+      "from": "DrivQuality",
+      "to": "ILiCost"
+    },
+    {
+      "from": "DrivQuality",
+      "to": "ThisCarCost"
+    },
+    {
+      "from": "DrivQuality",
+      "to": "PropCost"
+    },
+    {
+      "from": "AntiTheft",
+      "to": "Accident"
+    },
+    {
+      "from": "AntiTheft",
+      "to": "Cushioning"
+    },
+    {
+      "from": "AntiTheft",
+      "to": "ThisCarDam"
+    },
+    {
+      "from": "AntiTheft",
+      "to": "OtherCarCost"
+    },
+    {
+      "from": "AntiTheft",
+      "to": "MedCost"
+    },
+    {
+      "from": "AntiTheft",
+      "to": "ILiCost"
+    },
+    {
+      "from": "AntiTheft",
+      "to": "ThisCarCost"
+    },
+    {
+      "from": "AntiTheft",
+      "to": "PropCost"
+    },
+    {
+      "from": "Mileage",
+      "to": "Theft"
+    },
+    {
+      "from": "Mileage",
+      "to": "Cushioning"
+    },
+    {
+      "from": "Mileage",
+      "to": "ThisCarDam"
+    },
+    {
+      "from": "Mileage",
+      "to": "OtherCarCost"
+    },
+    {
+      "from": "Mileage",
+      "to": "MedCost"
+    },
+    {
+      "from": "Mileage",
+      "to": "ILiCost"
+    },
+    {
+      "from": "Mileage",
+      "to": "ThisCarCost"
+    },
+    {
+      "from": "Mileage",
+      "to": "PropCost"
+    },
+    {
+      "from": "CarValue",
+      "to": "Accident"
+    },
+    {
+      "from": "CarValue",
+      "to": "Theft"
+    },
+    {
+      "from": "CarValue",
+      "to": "Cushioning"
+    },
+    {
+      "from": "CarValue",
+      "to": "ThisCarDam"
+    },
+    {
+      "from": "CarValue",
+      "to": "OtherCarCost"
+    },
+    {
+      "from": "CarValue",
+      "to": "MedCost"
+    },
+    {
+      "from": "CarValue",
+      "to": "ILiCost"
+    },
+    {
+      "from": "CarValue",
+      "to": "ThisCarCost"
+    },
+    {
+      "from": "CarValue",
+      "to": "PropCost"
+    },
+    {
+      "from": "HomeBase",
+      "to": "Accident"
+    },
+    {
+      "from": "HomeBase",
+      "to": "Theft"
+    },
+    {
+      "from": "HomeBase",
+      "to": "Cushioning"
+    },
+    {
+      "from": "HomeBase",
+      "to": "ThisCarDam"
+    },
+    {
+      "from": "HomeBase",
+      "to": "OtherCarCost"
+    },
+    {
+      "from": "HomeBase",
+      "to": "MedCost"
+    },
+    {
+      "from": "HomeBase",
+      "to": "ILiCost"
+    },
+    {
+      "from": "HomeBase",
+      "to": "ThisCarCost"
+    },
+    {
+      "from": "HomeBase",
+      "to": "PropCost"
+    },
+    {
+      "from": "AntiLock",
+      "to": "Accident"
+    },
+    {
+      "from": "AntiLock",
+      "to": "Theft"
+    },
+    {
+      "from": "AntiLock",
+      "to": "Cushioning"
+    },
+    {
+      "from": "AntiLock",
+      "to": "ThisCarDam"
+    },
+    {
+      "from": "AntiLock",
+      "to": "OtherCarCost"
+    },
+    {
+      "from": "AntiLock",
+      "to": "MedCost"
+    },
+    {
+      "from": "AntiLock",
+      "to": "ILiCost"
+    },
+    {
+      "from": "AntiLock",
+      "to": "ThisCarCost"
+    },
+    {
+      "from": "AntiLock",
+      "to": "PropCost"
+    },
+    {
+      "from": "Airbag",
+      "to": "Accident"
+    },
+    {
+      "from": "Airbag",
+      "to": "Theft"
+    },
+    {
+      "from": "Airbag",
+      "to": "ThisCarDam"
+    },
+    {
+      "from": "Airbag",
+      "to": "OtherCarCost"
+    },
+    {
+      "from": "Airbag",
+      "to": "ILiCost"
+    },
+    {
+      "from": "Airbag",
+      "to": "ThisCarCost"
+    },
+    {
+      "from": "Airbag",
+      "to": "PropCost"
+    },
+    {
+      "from": "MakeModel",
+      "to": "Accident"
+    },
+    {
+      "from": "MakeModel",
+      "to": "Theft"
+    },
+    {
+      "from": "MakeModel",
+      "to": "Cushioning"
+    },
+    {
+      "from": "MakeModel",
+      "to": "ThisCarDam"
+    },
+    {
+      "from": "MakeModel",
+      "to": "OtherCarCost"
+    },
+    {
+      "from": "MakeModel",
+      "to": "MedCost"
+    },
+    {
+      "from": "MakeModel",
+      "to": "ILiCost"
+    },
+    {
+      "from": "MakeModel",
+      "to": "ThisCarCost"
+    },
+    {
+      "from": "MakeModel",
+      "to": "PropCost"
+    },
+    {
+      "from": "DrivHist",
+      "to": "Cushioning"
+    },
+    {
+      "from": "DrivHist",
+      "to": "ThisCarDam"
+    },
+    {
+      "from": "DrivHist",
+      "to": "OtherCarCost"
+    },
+    {
+      "from": "DrivHist",
+      "to": "MedCost"
+    },
+    {
+      "from": "DrivHist",
+      "to": "ILiCost"
+    },
+    {
+      "from": "DrivHist",
+      "to": "ThisCarCost"
+    },
+    {
+      "from": "DrivHist",
+      "to": "PropCost"
+    },
+    {
+      "from": "Accident",
+      "to": "Theft"
+    },
+    {
+      "from": "Accident",
+      "to": "Cushioning"
+    },
+    {
+      "from": "Accident",
+      "to": "ThisCarDam"
+    },
+    {
+      "from": "Accident",
+      "to": "OtherCarCost"
+    },
+    {
+      "from": "Accident",
+      "to": "MedCost"
+    },
+    {
+      "from": "Accident",
+      "to": "ILiCost"
+    },
+    {
+      "from": "Accident",
+      "to": "ThisCarCost"
+    },
+    {
+      "from": "Accident",
+      "to": "PropCost"
+    },
+    {
+      "from": "Theft",
+      "to": "Cushioning"
+    },
+    {
+      "from": "Theft",
+      "to": "ThisCarDam"
+    },
+    {
+      "from": "Theft",
+      "to": "OtherCarCost"
+    },
+    {
+      "from": "Theft",
+      "to": "MedCost"
+    },
+    {
+      "from": "Theft",
+      "to": "ILiCost"
+    },
+    {
+      "from": "Theft",
+      "to": "ThisCarCost"
+    },
+    {
+      "from": "Theft",
+      "to": "PropCost"
+    },
+    {
+      "from": "Cushioning",
+      "to": "ThisCarDam"
+    },
+    {
+      "from": "Cushioning",
+      "to": "OtherCarCost"
+    },
+    {
+      "from": "Cushioning",
+      "to": "MedCost"
+    },
+    {
+      "from": "Cushioning",
+      "to": "ILiCost"
+    },
+    {
+      "from": "Cushioning",
+      "to": "ThisCarCost"
+    },
+    {
+      "from": "Cushioning",
+      "to": "PropCost"
+    },
+    {
+      "from": "ThisCarDam",
+      "to": "OtherCarCost"
+    },
+    {
+      "from": "ThisCarDam",
+      "to": "MedCost"
+    },
+    {
+      "from": "ThisCarDam",
+      "to": "ILiCost"
+    },
+    {
+      "from": "ThisCarDam",
+      "to": "ThisCarCost"
+    },
+    {
+      "from": "ThisCarDam",
+      "to": "PropCost"
+    },
+    {
+      "from": "OtherCarCost",
+      "to": "MedCost"
+    },
+    {
+      "from": "OtherCarCost",
+      "to": "ILiCost"
+    },
+    {
+      "from": "OtherCarCost",
+      "to": "ThisCarCost"
+    },
+    {
+      "from": "OtherCarCost",
+      "to": "PropCost"
+    },
+    {
+      "from": "MedCost",
+      "to": "ILiCost"
+    },
+    {
+      "from": "MedCost",
+      "to": "ThisCarCost"
+    },
+    {
+      "from": "MedCost",
+      "to": "PropCost"
+    },
+    {
+      "from": "ILiCost",
+      "to": "ThisCarCost"
+    },
+    {
+      "from": "ILiCost",
+      "to": "PropCost"
+    },
+    {
+      "from": "ThisCarCost",
+      "to": "PropCost"
+    }
+  ],
+  "required": [
+    {
+      "from": "Age",
+      "to": "GoodStudent",
+      "weight": 0.5,
+      "reason": "Age determines eligibility for student discount"
+    },
+    {
+      "from": "Age",
+      "to": "SeniorTrain",
+      "weight": 0.5,
+      "reason": "Age determines eligibility for senior training"
+    },
+    {
+      "from": "Age",
+      "to": "DrivingSkill",
+      "weight": 0.3,
+      "reason": "Age affects physical and cognitive abilities"
+    },
+    {
+      "from": "Age",
+      "to": "DrivQuality",
+      "weight": 0.3,
+      "reason": "Age influences driving behavior"
+    },
+    {
+      "from": "Age",
+      "to": "Mileage",
+      "weight": 0.3,
+      "reason": "Age affects driving patterns and annual mileage"
+    },
+    {
+      "from": "Age",
+      "to": "DrivHist",
+      "weight": 0.4,
+      "reason": "Age determines length of driving history"
+    },
+    {
+      "from": "SocioEcon",
+      "to": "GoodStudent",
+      "weight": 0.3,
+      "reason": "Socioeconomic status influences academic achievement"
+    },
+    {
+      "from": "SocioEcon",
+      "to": "SeniorTrain",
+      "weight": 0.3,
+      "reason": "Socioeconomic status affects ability to afford training"
+    },
+    {
+      "from": "SocioEcon",
+      "to": "AntiTheft",
+      "weight": 0.3,
+      "reason": "Socioeconomic status affects purchase of anti-theft devices"
+    },
+    {
+      "from": "SocioEcon",
+      "to": "Mileage",
+      "weight": 0.3,
+      "reason": "Socioeconomic status influences commuting needs"
+    },
+    {
+      "from": "SocioEcon",
+      "to": "CarValue",
+      "weight": 0.5,
+      "reason": "Socioeconomic status determines vehicle affordability"
+    },
+    {
+      "from": "SocioEcon",
+      "to": "HomeBase",
+      "weight": 0.4,
+      "reason": "Socioeconomic status affects residential location"
+    },
+    {
+      "from": "SocioEcon",
+      "to": "MakeModel",
+      "weight": 0.4,
+      "reason": "Socioeconomic status influences vehicle choice"
+    },
+    {
+      "from": "RiskAversion",
+      "to": "SeniorTrain",
+      "weight": 0.3,
+      "reason": "Risk-averse individuals more likely to take safety training"
+    },
+    {
+      "from": "RiskAversion",
+      "to": "DrivQuality",
+      "weight": 0.5,
+      "reason": "Risk aversion directly influences driving behavior"
+    },
+    {
+      "from": "RiskAversion",
+      "to": "AntiTheft",
+      "weight": 0.4,
+      "reason": "Risk aversion increases installation of anti-theft systems"
+    },
+    {
+      "from": "RiskAversion",
+      "to": "Mileage",
+      "weight": 0.3,
+      "reason": "Risk aversion reduces driving exposure"
+    },
+    {
+      "from": "RiskAversion",
+      "to": "DrivHist",
+      "weight": 0.4,
+      "reason": "Risk aversion reduces violations and accidents"
+    },
+    {
+      "from": "VehicleYear",
+      "to": "CarValue",
+      "weight": 0.6,
+      "reason": "Vehicle age directly determines market value"
+    },
+    {
+      "from": "VehicleYear",
+      "to": "AntiLock",
+      "weight": 0.5,
+      "reason": "Vehicle year determines availability of ABS"
+    },
+    {
+      "from": "VehicleYear",
+      "to": "Airbag",
+      "weight": 0.5,
+      "reason": "Vehicle year determines airbag installation"
+    },
+    {
+      "from": "VehicleYear",
+      "to": "MakeModel",
+      "weight": 0.3,
+      "reason": "Vehicle year correlates with model generation"
+    },
+    {
+      "from": "VehicleYear",
+      "to": "Cushioning",
+      "weight": 0.4,
+      "reason": "Vehicle year affects safety design and crumple zones"
+    },
+    {
+      "from": "GoodStudent",
+      "to": "DrivHist",
+      "weight": 0.3,
+      "reason": "Good students tend to have cleaner driving records"
+    },
+    {
+      "from": "SeniorTrain",
+      "to": "DrivingSkill",
+      "weight": 0.5,
+      "reason": "Training directly improves driving skill"
+    },
+    {
+      "from": "SeniorTrain",
+      "to": "DrivHist",
+      "weight": 0.3,
+      "reason": "Training reduces violations and accidents"
+    },
+    {
+      "from": "DrivingSkill",
+      "to": "Accident",
+      "weight": 0.5,
+      "reason": "Higher skill reduces accident likelihood"
+    },
+    {
+      "from": "DrivQuality",
+      "to": "Accident",
+      "weight": 0.6,
+      "reason": "Aggressive driving increases accident risk"
+    },
+    {
+      "from": "DrivQuality",
+      "to": "DrivHist",
+      "weight": 0.5,
+      "reason": "Driving behavior directly affects violation history"
+    },
+    {
+      "from": "AntiTheft",
+      "to": "Theft",
+      "weight": 0.6,
+      "reason": "Anti-theft devices deter theft"
+    },
+    {
+      "from": "Mileage",
+      "to": "Accident",
+      "weight": 0.5,
+      "reason": "More miles driven increases exposure to accidents"
+    },
+    {
+      "from": "CarValue",
+      "to": "Theft",
+      "weight": 0.4,
+      "reason": "Higher value vehicles are more attractive to thieves"
+    },
+    {
+      "from": "CarValue",
+      "to": "ThisCarCost",
+      "weight": 0.7,
+      "reason": "Repair cost scales with vehicle value"
+    },
+    {
+      "from": "HomeBase",
+      "to": "Theft",
+      "weight": 0.5,
+      "reason": "Urban areas have higher theft rates"
+    },
+    {
+      "from": "AntiLock",
+      "to": "Accident",
+      "weight": 0.3,
+      "reason": "ABS reduces certain accident types"
+    },
+    {
+      "from": "Airbag",
+      "to": "MedCost",
+      "weight": 0.5,
+      "reason": "Airbags reduce injury severity"
+    },
+    {
+      "from": "Airbag",
+      "to": "Cushioning",
+      "weight": 0.4,
+      "reason": "Airbags contribute to impact cushioning"
+    },
+    {
+      "from": "MakeModel",
+      "to": "CarValue",
+      "weight": 0.5,
+      "reason": "Model and performance affect market value"
+    },
+    {
+      "from": "MakeModel",
+      "to": "AntiLock",
+      "weight": 0.3,
+      "reason": "Vehicle model determines standard safety features"
+    },
+    {
+      "from": "MakeModel",
+      "to": "Airbag",
+      "weight": 0.3,
+      "reason": "Vehicle model determines airbag count"
+    },
+    {
+      "from": "MakeModel",
+      "to": "Cushioning",
+      "weight": 0.4,
+      "reason": "Vehicle design affects crash safety"
+    },
+    {
+      "from": "MakeModel",
+      "to": "Accident",
+      "weight": 0.3,
+      "reason": "Sportier models may encourage risky driving"
+    },
+    {
+      "from": "DrivHist",
+      "to": "Accident",
+      "weight": 0.5,
+      "reason": "Past violations predict future accidents"
+    },
+    {
+      "from": "Accident",
+      "to": "ThisCarDam",
+      "weight": 0.8,
+      "reason": "Accident directly causes damage to insured vehicle"
+    },
+    {
+      "from": "Accident",
+      "to": "OtherCarCost",
+      "weight": 0.7,
+      "reason": "Accident causes damage to other vehicles"
+    },
+    {
+      "from": "Accident",
+      "to": "MedCost",
+      "weight": 0.7,
+      "reason": "Accident causes injuries requiring medical treatment"
+    },
+    {
+      "from": "Theft",
+      "to": "ThisCarDam",
+      "weight": 0.6,
+      "reason": "Theft often results in vehicle damage"
+    },
+    {
+      "from": "Theft",
+      "to": "ThisCarCost",
+      "weight": 0.7,
+      "reason": "Theft leads to loss or recovery costs"
+    },
+    {
+      "from": "Cushioning",
+      "to": "MedCost",
+      "weight": 0.5,
+      "reason": "Better cushioning reduces injury severity"
+    },
+    {
+      "from": "Cushioning",
+      "to": "ThisCarDam",
+      "weight": 0.3,
+      "reason": "Cushioning absorbs impact reducing structural damage"
+    },
+    {
+      "from": "ThisCarDam",
+      "to": "ThisCarCost",
+      "weight": 0.8,
+      "reason": "Damage severity directly determines repair cost"
+    },
+    {
+      "from": "ThisCarDam",
+      "to": "PropCost",
+      "weight": 0.6,
+      "reason": "Own vehicle damage contributes to property cost"
+    },
+    {
+      "from": "OtherCarCost",
+      "to": "PropCost",
+      "weight": 0.7,
+      "reason": "Third-party damage contributes to property cost"
+    },
+    {
+      "from": "MedCost",
+      "to": "ILiCost",
+      "weight": 0.7,
+      "reason": "Medical expenses are part of total indemnity"
+    },
+    {
+      "from": "ThisCarCost",
+      "to": "ILiCost",
+      "weight": 0.7,
+      "reason": "Own vehicle repair cost is part of total indemnity"
+    },
+    {
+      "from": "PropCost",
+      "to": "ILiCost",
+      "weight": 0.6,
+      "reason": "Property costs contribute to total indemnity"
+    },
+    {
+      "from": "Insured",
+      "to": "ILiCost",
+      "weight": 0.5,
+      "reason": "Insurance coverage determines claim payout"
+    },
+    {
+      "from": "Insured",
+      "to": "ThisCarCost",
+      "weight": 0.5,
+      "reason": "Coverage determines comprehensive payout"
+    },
+    {
+      "from": "Insured",
+      "to": "PropCost",
+      "weight": 0.5,
+      "reason": "Coverage determines property damage payout"
+    }
+  ]
+}

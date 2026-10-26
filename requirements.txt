@@ -1,0 +1,10 @@
+joblib==1.5.1
+matplotlib==3.11.2
+networkx==3.4.2
+numpy==2.5.4
+pandas==3.1.0
+pgmpy==1.0.0
+Requests==2.34.2
+rpy2==3.5.11
+scikit_learn==1.9.1
+scipy==1.18.1

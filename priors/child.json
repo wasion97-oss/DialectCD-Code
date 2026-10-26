@@ -1,0 +1,766 @@
+{
+  "tiers": {
+    "BirthAsphyxia": 0,
+    "Age": 0,
+    "Disease": 0,
+    "Sick": 1,
+    "LVH": 1,
+    "DuctFlow": 1,
+    "CardiacMixing": 1,
+    "LungParench": 1,
+    "LungFlow": 1,
+    "HypDistrib": 2,
+    "HypoxiaInO2": 2,
+    "CO2": 2,
+    "ChestXray": 2,
+    "Grunting": 2,
+    "LVHreport": 2,
+    "LowerBodyO2": 2,
+    "RUQO2": 2,
+    "CO2Report": 3,
+    "XrayReport": 3,
+    "AgeReport": 3
+  },
+  "forbidden": [
+    {
+      "from": "BirthAsphyxia",
+      "to": "Age"
+    },
+    {
+      "from": "BirthAsphyxia",
+      "to": "Disease"
+    },
+    {
+      "from": "Age",
+      "to": "BirthAsphyxia"
+    },
+    {
+      "from": "Age",
+      "to": "Disease"
+    },
+    {
+      "from": "Disease",
+      "to": "BirthAsphyxia"
+    },
+    {
+      "from": "Disease",
+      "to": "Age"
+    },
+    {
+      "from": "Sick",
+      "to": "BirthAsphyxia"
+    },
+    {
+      "from": "Sick",
+      "to": "Age"
+    },
+    {
+      "from": "Sick",
+      "to": "Disease"
+    },
+    {
+      "from": "LVH",
+      "to": "BirthAsphyxia"
+    },
+    {
+      "from": "LVH",
+      "to": "Age"
+    },
+    {
+      "from": "LVH",
+      "to": "Disease"
+    },
+    {
+      "from": "DuctFlow",
+      "to": "BirthAsphyxia"
+    },
+    {
+      "from": "DuctFlow",
+      "to": "Age"
+    },
+    {
+      "from": "DuctFlow",
+      "to": "Disease"
+    },
+    {
+      "from": "CardiacMixing",
+      "to": "BirthAsphyxia"
+    },
+    {
+      "from": "CardiacMixing",
+      "to": "Age"
+    },
+    {
+      "from": "CardiacMixing",
+      "to": "Disease"
+    },
+    {
+      "from": "LungParench",
+      "to": "BirthAsphyxia"
+    },
+    {
+      "from": "LungParench",
+      "to": "Age"
+    },
+    {
+      "from": "LungParench",
+      "to": "Disease"
+    },
+    {
+      "from": "LungFlow",
+      "to": "BirthAsphyxia"
+    },
+    {
+      "from": "LungFlow",
+      "to": "Age"
+    },
+    {
+      "from": "LungFlow",
+      "to": "Disease"
+    },
+    {
+      "from": "HypDistrib",
+      "to": "BirthAsphyxia"
+    },
+    {
+      "from": "HypDistrib",
+      "to": "Age"
+    },
+    {
+      "from": "HypDistrib",
+      "to": "Disease"
+    },
+    {
+      "from": "HypDistrib",
+      "to": "Sick"
+    },
+    {
+      "from": "HypDistrib",
+      "to": "LVH"
+    },
+    {
+      "from": "HypDistrib",
+      "to": "DuctFlow"
+    },
+    {
+      "from": "HypDistrib",
+      "to": "CardiacMixing"
+    },
+    {
+      "from": "HypDistrib",
+      "to": "LungParench"
+    },
+    {
+      "from": "HypDistrib",
+      "to": "LungFlow"
+    },
+    {
+      "from": "HypoxiaInO2",
+      "to": "BirthAsphyxia"
+    },
+    {
+      "from": "HypoxiaInO2",
+      "to": "Age"
+    },
+    {
+      "from": "HypoxiaInO2",
+      "to": "Disease"
+    },
+    {
+      "from": "HypoxiaInO2",
+      "to": "Sick"
+    },
+    {
+      "from": "HypoxiaInO2",
+      "to": "LVH"
+    },
+    {
+      "from": "HypoxiaInO2",
+      "to": "DuctFlow"
+    },
+    {
+      "from": "HypoxiaInO2",
+      "to": "CardiacMixing"
+    },
+    {
+      "from": "HypoxiaInO2",
+      "to": "LungParench"
+    },
+    {
+      "from": "HypoxiaInO2",
+      "to": "LungFlow"
+    },
+    {
+      "from": "CO2",
+      "to": "BirthAsphyxia"
+    },
+    {
+      "from": "CO2",
+      "to": "Age"
+    },
+    {
+      "from": "CO2",
+      "to": "Disease"
+    },
+    {
+      "from": "CO2",
+      "to": "Sick"
+    },
+    {
+      "from": "CO2",
+      "to": "LVH"
+    },
+    {
+      "from": "CO2",
+      "to": "DuctFlow"
+    },
+    {
+      "from": "CO2",
+      "to": "CardiacMixing"
+    },
+    {
+      "from": "CO2",
+      "to": "LungParench"
+    },
+    {
+      "from": "CO2",
+      "to": "LungFlow"
+    },
+    {
+      "from": "ChestXray",
+      "to": "BirthAsphyxia"
+    },
+    {
+      "from": "ChestXray",
+      "to": "Age"
+    },
+    {
+      "from": "ChestXray",
+      "to": "Disease"
+    },
+    {
+      "from": "ChestXray",
+      "to": "Sick"
+    },
+    {
+      "from": "ChestXray",
+      "to": "LVH"
+    },
+    {
+      "from": "ChestXray",
+      "to": "DuctFlow"
+    },
+    {
+      "from": "ChestXray",
+      "to": "CardiacMixing"
+    },
+    {
+      "from": "ChestXray",
+      "to": "LungParench"
+    },
+    {
+      "from": "ChestXray",
+      "to": "LungFlow"
+    },
+    {
+      "from": "Grunting",
+      "to": "BirthAsphyxia"
+    },
+    {
+      "from": "Grunting",
+      "to": "Age"
+    },
+    {
+      "from": "Grunting",
+      "to": "Disease"
+    },
+    {
+      "from": "Grunting",
+      "to": "Sick"
+    },
+    {
+      "from": "Grunting",
+      "to": "LVH"
+    },
+    {
+      "from": "Grunting",
+      "to": "DuctFlow"
+    },
+    {
+      "from": "Grunting",
+      "to": "CardiacMixing"
+    },
+    {
+      "from": "Grunting",
+      "to": "LungParench"
+    },
+    {
+      "from": "Grunting",
+      "to": "LungFlow"
+    },
+    {
+      "from": "LVHreport",
+      "to": "BirthAsphyxia"
+    },
+    {
+      "from": "LVHreport",
+      "to": "Age"
+    },
+    {
+      "from": "LVHreport",
+      "to": "Disease"
+    },
+    {
+      "from": "LVHreport",
+      "to": "Sick"
+    },
+    {
+      "from": "LVHreport",
+      "to": "LVH"
+    },
+    {
+      "from": "LVHreport",
+      "to": "DuctFlow"
+    },
+    {
+      "from": "LVHreport",
+      "to": "CardiacMixing"
+    },
+    {
+      "from": "LVHreport",
+      "to": "LungParench"
+    },
+    {
+      "from": "LVHreport",
+      "to": "LungFlow"
+    },
+    {
+      "from": "LowerBodyO2",
+      "to": "BirthAsphyxia"
+    },
+    {
+      "from": "LowerBodyO2",
+      "to": "Age"
+    },
+    {
+      "from": "LowerBodyO2",
+      "to": "Disease"
+    },
+    {
+      "from": "LowerBodyO2",
+      "to": "Sick"
+    },
+    {
+      "from": "LowerBodyO2",
+      "to": "LVH"
+    },
+    {
+      "from": "LowerBodyO2",
+      "to": "DuctFlow"
+    },
+    {
+      "from": "LowerBodyO2",
+      "to": "CardiacMixing"
+    },
+    {
+      "from": "LowerBodyO2",
+      "to": "LungParench"
+    },
+    {
+      "from": "LowerBodyO2",
+      "to": "LungFlow"
+    },
+    {
+      "from": "RUQO2",
+      "to": "BirthAsphyxia"
+    },
+    {
+      "from": "RUQO2",
+      "to": "Age"
+    },
+    {
+      "from": "RUQO2",
+      "to": "Disease"
+    },
+    {
+      "from": "RUQO2",
+      "to": "Sick"
+    },
+    {
+      "from": "RUQO2",
+      "to": "LVH"
+    },
+    {
+      "from": "RUQO2",
+      "to": "DuctFlow"
+    },
+    {
+      "from": "RUQO2",
+      "to": "CardiacMixing"
+    },
+    {
+      "from": "RUQO2",
+      "to": "LungParench"
+    },
+    {
+      "from": "RUQO2",
+      "to": "LungFlow"
+    },
+    {
+      "from": "CO2Report",
+      "to": "BirthAsphyxia"
+    },
+    {
+      "from": "CO2Report",
+      "to": "Age"
+    },
+    {
+      "from": "CO2Report",
+      "to": "Disease"
+    },
+    {
+      "from": "CO2Report",
+      "to": "Sick"
+    },
+    {
+      "from": "CO2Report",
+      "to": "LVH"
+    },
+    {
+      "from": "CO2Report",
+      "to": "DuctFlow"
+    },
+    {
+      "from": "CO2Report",
+      "to": "CardiacMixing"
+    },
+    {
+      "from": "CO2Report",
+      "to": "LungParench"
+    },
+    {
+      "from": "CO2Report",
+      "to": "LungFlow"
+    },
+    {
+      "from": "CO2Report",
+      "to": "HypDistrib"
+    },
+    {
+      "from": "CO2Report",
+      "to": "HypoxiaInO2"
+    },
+    {
+      "from": "CO2Report",
+      "to": "CO2"
+    },
+    {
+      "from": "CO2Report",
+      "to": "ChestXray"
+    },
+    {
+      "from": "CO2Report",
+      "to": "Grunting"
+    },
+    {
+      "from": "CO2Report",
+      "to": "LVHreport"
+    },
+    {
+      "from": "CO2Report",
+      "to": "LowerBodyO2"
+    },
+    {
+      "from": "CO2Report",
+      "to": "RUQO2"
+    },
+    {
+      "from": "XrayReport",
+      "to": "BirthAsphyxia"
+    },
+    {
+      "from": "XrayReport",
+      "to": "Age"
+    },
+    {
+      "from": "XrayReport",
+      "to": "Disease"
+    },
+    {
+      "from": "XrayReport",
+      "to": "Sick"
+    },
+    {
+      "from": "XrayReport",
+      "to": "LVH"
+    },
+    {
+      "from": "XrayReport",
+      "to": "DuctFlow"
+    },
+    {
+      "from": "XrayReport",
+      "to": "CardiacMixing"
+    },
+    {
+      "from": "XrayReport",
+      "to": "LungParench"
+    },
+    {
+      "from": "XrayReport",
+      "to": "LungFlow"
+    },
+    {
+      "from": "XrayReport",
+      "to": "HypDistrib"
+    },
+    {
+      "from": "XrayReport",
+      "to": "HypoxiaInO2"
+    },
+    {
+      "from": "XrayReport",
+      "to": "CO2"
+    },
+    {
+      "from": "XrayReport",
+      "to": "ChestXray"
+    },
+    {
+      "from": "XrayReport",
+      "to": "Grunting"
+    },
+    {
+      "from": "XrayReport",
+      "to": "LVHreport"
+    },
+    {
+      "from": "XrayReport",
+      "to": "LowerBodyO2"
+    },
+    {
+      "from": "XrayReport",
+      "to": "RUQO2"
+    },
+    {
+      "from": "AgeReport",
+      "to": "BirthAsphyxia"
+    },
+    {
+      "from": "AgeReport",
+      "to": "Age"
+    },
+    {
+      "from": "AgeReport",
+      "to": "Disease"
+    },
+    {
+      "from": "AgeReport",
+      "to": "Sick"
+    },
+    {
+      "from": "AgeReport",
+      "to": "LVH"
+    },
+    {
+      "from": "AgeReport",
+      "to": "DuctFlow"
+    },
+    {
+      "from": "AgeReport",
+      "to": "CardiacMixing"
+    },
+    {
+      "from": "AgeReport",
+      "to": "LungParench"
+    },
+    {
+      "from": "AgeReport",
+      "to": "LungFlow"
+    },
+    {
+      "from": "AgeReport",
+      "to": "HypDistrib"
+    },
+    {
+      "from": "AgeReport",
+      "to": "HypoxiaInO2"
+    },
+    {
+      "from": "AgeReport",
+      "to": "CO2"
+    },
+    {
+      "from": "AgeReport",
+      "to": "ChestXray"
+    },
+    {
+      "from": "AgeReport",
+      "to": "Grunting"
+    },
+    {
+      "from": "AgeReport",
+      "to": "LVHreport"
+    },
+    {
+      "from": "AgeReport",
+      "to": "LowerBodyO2"
+    },
+    {
+      "from": "AgeReport",
+      "to": "RUQO2"
+    }
+  ],
+  "required": [
+    {
+      "from": "BirthAsphyxia",
+      "to": "Sick",
+      "weight": 0.8,
+      "reason": "Asphyxia directly causes systemic illness"
+    },
+    {
+      "from": "BirthAsphyxia",
+      "to": "LungParench",
+      "weight": 0.5,
+      "reason": "Asphyxia can directly damage lung tissue"
+    },
+    {
+      "from": "Disease",
+      "to": "Sick",
+      "weight": 0.7,
+      "reason": "Congenital disease directly causes clinical illness"
+    },
+    {
+      "from": "Disease",
+      "to": "LVH",
+      "weight": 0.6,
+      "reason": "Disease directly causes ventricular hypertrophy"
+    },
+    {
+      "from": "Disease",
+      "to": "DuctFlow",
+      "weight": 0.7,
+      "reason": "Disease directly affects ductus flow"
+    },
+    {
+      "from": "Disease",
+      "to": "CardiacMixing",
+      "weight": 0.8,
+      "reason": "Disease directly determines intracardiac mixing"
+    },
+    {
+      "from": "Disease",
+      "to": "LungParench",
+      "weight": 0.5,
+      "reason": "Disease directly affects lung parenchyma"
+    },
+    {
+      "from": "Disease",
+      "to": "LungFlow",
+      "weight": 0.8,
+      "reason": "Disease directly determines pulmonary blood flow"
+    },
+    {
+      "from": "Sick",
+      "to": "Grunting",
+      "weight": 0.6,
+      "reason": "Systemic illness directly causes respiratory distress"
+    },
+    {
+      "from": "LVH",
+      "to": "LVHreport",
+      "weight": 0.9,
+      "reason": "Hypertrophy directly produces ECG report"
+    },
+    {
+      "from": "DuctFlow",
+      "to": "HypDistrib",
+      "weight": 0.7,
+      "reason": "Ductal shunt directly affects oxygenation distribution"
+    },
+    {
+      "from": "CardiacMixing",
+      "to": "HypDistrib",
+      "weight": 0.8,
+      "reason": "Mixing directly determines hypoxia distribution"
+    },
+    {
+      "from": "LungParench",
+      "to": "LungFlow",
+      "weight": 0.6,
+      "reason": "Parenchymal condition directly affects pulmonary flow"
+    },
+    {
+      "from": "LungParench",
+      "to": "ChestXray",
+      "weight": 0.8,
+      "reason": "Parenchymal pathology directly produces X-ray findings"
+    },
+    {
+      "from": "LungParench",
+      "to": "Grunting",
+      "weight": 0.7,
+      "reason": "Lung disease directly causes grunting"
+    },
+    {
+      "from": "LungFlow",
+      "to": "HypDistrib",
+      "weight": 0.7,
+      "reason": "Pulmonary flow directly affects oxygenation distribution"
+    },
+    {
+      "from": "LungFlow",
+      "to": "HypoxiaInO2",
+      "weight": 0.8,
+      "reason": "Pulmonary flow directly determines oxygen response"
+    },
+    {
+      "from": "LungFlow",
+      "to": "ChestXray",
+      "weight": 0.6,
+      "reason": "Pulmonary flow directly affects vascular markings"
+    },
+    {
+      "from": "HypDistrib",
+      "to": "LowerBodyO2",
+      "weight": 0.9,
+      "reason": "Distribution directly determines lower body oxygen"
+    },
+    {
+      "from": "HypDistrib",
+      "to": "RUQO2",
+      "weight": 0.9,
+      "reason": "Distribution directly determines preductal oxygen"
+    },
+    {
+      "from": "HypoxiaInO2",
+      "to": "LowerBodyO2",
+      "weight": 0.5,
+      "reason": "Oxygen response directly affects lower body oxygen"
+    },
+    {
+      "from": "HypoxiaInO2",
+      "to": "RUQO2",
+      "weight": 0.5,
+      "reason": "Oxygen response directly affects preductal oxygen"
+    },
+    {
+      "from": "CO2",
+      "to": "CO2Report",
+      "weight": 0.9,
+      "reason": "CO2 level directly produces lab report"
+    },
+    {
+      "from": "ChestXray",
+      "to": "XrayReport",
+      "weight": 0.9,
+      "reason": "X-ray findings directly produce radiologist report"
+    },
+    {
+      "from": "Age",
+      "to": "AgeReport",
+      "weight": 0.9,
+      "reason": "Age directly produces demographic report"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+    "tiers": {
+      "user_active_degree": 0,
+      "follow_user_num_range": 0,
+      "fans_user_num_range": 0,
+      "video_duration": 0,
+      "play_duration": 0,
+      "user_pre_avg_play_ms": 0,
+      "Treatment_Policy": 1,
+      "is_click": 2,
+      "play_time_ms": 3,
+      "is_like": 3
+    },
+    "required": [
+      {
+        "from": "Treatment_Policy",
+        "to": "is_click",
+        "weight": 0.90,
+        "comment": "推荐算法策略直接影响曝光视频的点击率 (CTR)"
+      },
+      {
+        "from": "Treatment_Policy",
+        "to": "play_time_ms",
+        "weight": 0.85,
+        "comment": "算法精准分发提升内容与兴趣契合度，直接拉长播放时长"
+      },
+      {
+        "from": "is_click",
+        "to": "play_time_ms",
+        "weight": 0.95,
+        "comment": "点击展开播放是产生播放时长的物理前提机制"
+      },
+      {
+        "from": "video_duration",
+        "to": "play_time_ms",
+        "weight": 0.95,
+        "comment": "视频物理总时长决定了单次播放时长的理论上限"
+      },
+      {
+        "from": "user_pre_avg_play_ms",
+        "to": "play_time_ms",
+        "weight": 0.90,
+        "comment": "用户预实验期的历史平均消费时长具有极强的主体延续性"
+      },
+      {
+        "from": "play_time_ms",
+        "to": "is_like",
+        "weight": 0.95,
+        "comment": "完播或深度观看后才会激发用户正向互动点赞行为"
+      },
+      {
+        "from": "user_active_degree",
+        "to": "is_click",
+        "weight": 0.80,
+        "comment": "高活跃度用户具有更频繁的探索与点击倾向"
+      }
+    ],
+    "forbidden": [
+      {
+        "from": "play_time_ms",
+        "to": "Treatment_Policy",
+        "comment": "终端实验指标绝不可反向改变实验分流策略"
+      },
+      {
+        "from": "play_time_ms",
+        "to": "is_click",
+        "comment": "观看时长不可反向导致点击行为"
+      },
+      {
+        "from": "is_like",
+        "to": "play_time_ms",
+        "comment": "点赞结果不可反向导致之前的播放时长"
+      },
+      {
+        "from": "play_time_ms",
+        "to": "video_duration",
+        "comment": "用户播放时长不可逆向篡改视频创作者上传的物理视频时长"
+      },
+      {
+        "from": "is_click",
+        "to": "Treatment_Policy",
+        "comment": "用户点击行为不可反向决定系统分流规则"
+      }
+    ]
+  }
